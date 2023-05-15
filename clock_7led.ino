@@ -37,7 +37,7 @@ const uint8_t allON[] = {0xff, 0xff, 0xff, 0xff};
 // Create an array that turns all segments OFF
 const uint8_t allOFF[] = {0x00, 0x00, 0x00, 0x00};
 
-// Create an array that sets individual segments per digit to display the word "dOnE"
+// Create an array that sets individual segments per digit to display the word "Err"
 const uint8_t err[] = {
   SEG_A | SEG_D | SEG_E | SEG_F | SEG_G,            // E
   SEG_E | SEG_G,                                    // r
